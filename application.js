@@ -27,6 +27,11 @@ $( document ).on( 'click', '[id^=more]', function() {
   }
 } );
 
+$( document ).on( 'click', '#all-click', function() {
+  $('[id^=reveal]').toggleClass('hidden');
+  $('.more').toggleClass('clicked');
+});
+
 function score_update(score) {
   $("#clicked").text(score);
   $('#clickable').text("/" + numberOfClickableElements);
