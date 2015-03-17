@@ -45,7 +45,7 @@ img {
 }
 
 .clicked {
-  border-bottom: 2px solid #EEE;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.2);
 }
 
 .third {
@@ -73,13 +73,14 @@ img {
 
 .marked {
   position: relative;
+  background-color: rgba(76, 34, 34, 0.1);
 }
 
 .marker {
   position: absolute;
   left: -15px;
   top: 50%;
-  background-color: rgba(172, 9, 9, 0.34);
+  /*background-color: rgba(172, 9, 9, 0.34);*/
   height: 5px;
   width: 5px;
   -webkit-border-radius: 5px;
