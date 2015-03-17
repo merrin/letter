@@ -101,6 +101,27 @@ blockquote {
   font-size: 0.8em;
 }
 
+@media all and (max-width: 700px) {
+  body {
+    margin: 0;
+  }
+  .container {
+    padding: 0.3em;
+  }
+  blockquote {
+    margin: 0;
+  }
+  .mobile-invisible {
+    display: none;
+  }
+  #reveal-queerway ol {
+    padding-left: 1em;
+  }
+  #reveal-queerway li {
+    list-style-type: circle;
+  }
+}
+
 /**
  * For modern browsers
  * 1. The space content is one way to avoid an Opera bug when the
