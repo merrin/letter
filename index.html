@@ -7,9 +7,7 @@
   <meta name="description" content="Merrin Macleod is good at things">
   <link rel="stylesheet" type="text/css" href="inconsolata/stylesheet.css">
   <link rel="stylesheet" type="text/css" href="styles.css">
-  <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-  <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-  <script src="jquery/js/jquery.visible.min.js"></script>
+  <script src="/jquery/js/jquery-1.9.1.js"></script>
   <script src="application.js"></script>
 </head>
 
@@ -17,9 +15,57 @@
   <div class="container cf">
     <div class="score"><span id="clicked"></span><span id="clickable"></span></div>
     <h1>Dear Mr B,</h1>
-    <p>Hi.</p>
-    <p>Fond regards,</p>
-    <p>Merrin</p>
+    <h3><span id="more-hi" class="more">Hi</span>.</h3>
+    <div id="reveal-hi" class="hidden marked">
+      <span class="marker"></span>
+      <p>I'm writing you this letter because I just got back to Sydney from <span id="more-queensland" class="more">Queensland</span>. I only just got in touch with you to try to meet up this afternoon, and I never replied to your polite decline. I'm sure you really were at school until 6pm. <span id="more-stephens" class="more">I went past you around four</span> and thought about texting then but didn't end up pressing send. The clock says 11.10pm for me now and it'd be rude to text past your midnight. I heard you had a baby now.</p>
+      <div id="reveal-stephens" class="hidden">
+        <p>I <span id="more-walked" class="more">walked</span> to Stephens Road at 3.30pm to <span id="more-house" class="more">see my old house</span> I'd looked you up and I knew <span id="more-recognise" class="more">you</span> were near by. </p>
+        <p id="reveal-walked" class="hidden">
+          I walked from the <span id="more-station" class="more">train station</span><span class="hidden" id="reveal-station"> by the galleries I used to wander around alone</span>, to <span class="hidden" id="reveal-cafe">the ghost of</span> the <span class="more" id="more-cafe">cafe</span> I used to work at, past the <span class="more" id="more-church">church</span><span id="reveal-church" class="hidden"> where a balding man with a maths doctorate used to make chai for swaying and wrinkled women</span>, the <span class="more" id="more-hardware">hardware store</span><span id="reveal-hardware" class="hidden"> where I bought a glass cutter for some brilliant idea I never executed</span>, the street I'd seen <span class="more" id="more-spb">SPB</span><span class="hidden" id="reveal-spb"> (a beautiful pizza chef at my ghost cafe)</span>, the <span class="more" id="more-park">park</span><span class="hidden" id="reveal-park"> where I walked with TLB through mist to the stairs and read bukowski</span>, a <span class="more" id="more-fridge">fridge</span><span class="hidden" id="reveal-fridge"> like the one we'd photographed the mannequin arm inside</span>, Cyrillic letters on a white washed <span class="more" id="more-chapel">chapel</span><span class="hidden" id="reveal-chapel"> where I'd seen a wedding party</span>, walking past girls in bright green dresses and boys in yellow, to the short brick <span class="more" id="more-wall">wall</span><span class="hidden" id="reveal-wall"> where I smoked with BRS while he complained pointedly about being lonely</span> across the road from where I'd lived.
+        </p>
+        <div id="reveal-house" class="hidden">
+          <p>The yellow paint on my old house was still peeling, the windows still barred, the tame flowers still growing wildly, all doors open to let air circulate - and a woman walked down the corridor to take out the rubbish. I thought about the time I spent <span class="more" id="more-there">there</span><span class="hidden" id="reveal-there">, lying in bed terrified of moths, listening to TLB's paranoia, eating nothing but poppadoms, sleeping all the time, trying to stay dreaming, trying to write <span class="more" id="more-f">F</span> R E E D O M on the walls with cut out book pages</span>. <span class="hidden" id="reveal-f">(I got to F R.)</span></p>
+          <p>So I lay on the wall opposite, casually looking out for you and practising how surprised I'd pretend to be if you did go past, studying the <span id="more-leaves" class="more">leaves</span> between me and the sky. <span id="reveal-leaves" class="hidden">The veins split oddly in five, a circle from the centre.</span></p>
+        </div>
+        <div id="reveal-recognise" class="hidden">
+          <p>I don't know if I'd have recognised you if you walked past. </p>
+          <p>I walked closer to (probably) you, past the tracks I'd wanted to jump on to, past the roads I remembered, past more <span class="more" id="more-boys">boys</span> in uniform. </p>
+          <p class="hidden" id="reveal-boys">"It'll be over soon," a mother warned one she was walking with, "and you'll miss being with them all the time." </p>
+          <p>A sign told me: "Celebrate the <span class="more" id="more-past">past</span>. Live in the <span class="more" id="more-present">present</span>." I don't know what it told me to do about the <span class="more" id="more-future">future</span>. Become it? Embrace it?</p>
+          <p class="hidden" id="reveal-past">As I walked back down past the tracks I'd fantasised of dying on, past the house where I excused my cowardice by smoking and starving my way towards death, I was </p>
+          <p class="hidden" id="reveal-future">It's hard for me to imagine a future for myself. I had expected Australia to run out of <span class="more" id="more-water">water</span>, ravaged by fires and cyclones, chaos and <span class="hidden" id="reveal-anarchy">the bad kind of </span><span class="more" id="more-anarchy">anarchy</span> in the streets.</p>
+          <p class="hidden" id="reveal-water">Shortly after we moved to Queensland in 2001, it stopped raining. The longer I spent there, the lower the dam levels were, the more headlines were dominated by suicidal farmers and starving cattle and cracked landscape, the less time we had to shower, the browner the grass was. I didn't think it would reverse. </p>
+        </div>
+      </div>
+      <div class="hidden" id="reveal-queensland">
+        <p>
+          I spent time this weekend with MML, MKW, KB, TCH - all former Emmanuel students who left almost ten <span class="more" id="more-years">years</span> ago. You <span class="more" id="more-taught">taught</span> three of us. We all talked about our <span class="more" id="more-impressions">impressions</span> now of our time at school and how people had grown up.
+        </p>
+        <p class="hidden" id="reveal-years">
+          I'm 25 now, turning 26 in a month. I remember you were born in 1979 because that Smashing Pumpkins song had particular significance to you. You would have been 27 when I finished high school, maybe 23 when you first started teaching me. 
+        </p>
+        <p class="hidden" id="reveal-taught">
+          I remember our first classes where you tried to explain capitalism with top hats on the whiteboard. I liked you because you were strange and uncertain and you listened wide-eyed and spoke animatedly. It felt like you were all there to be accessed, sincere and vulnerable, and you wanted to make this shitty and incomprehensible world a little better and more understandable for some people.
+        </p>
+        <p>
+          In a lot of ways you were the only positive thing about my experience at Emmanuel, although you had your <span class="more" id="more-problematic">problematic</span> moments too. <span class="hidden" id="reveal-problematic"> I distinctly remember in one of those English detentions you used to hand out I detailed to you the problems I had with motivation and <span class="more" id="more-concentration">concentration</span> to start and complete homework<span class="hidden" id="reveal-concentration">, symptoms of what has now been diagnosed as ADHD and could have been effectively treated if it'd been recognised as such back then</span>, and your reply was: 'have you ever considered that you're just lazy?' </span>
+        </p>
+        <p class="hidden" id="reveal-impressions">
+          I've always regarded my years at Emmanuel negatively. There was a combination of the <span id="more-adolescence" class="more">general pain of adolescence</span>, the difficulty of being <span id="more-different" class="more">different</span><span class="hidden" id="reveal-different"> - <span class="more" id="more-fat">fat</span>, <span class="more" id="more-nerdy">nerdy</span>, <span id="more-queer" class="more">queer</span> -</span> in Emmanuel's and the <span class="more" id="more-goldcoast">Gold Coast's</span> aggressively homogenous culture, <span class="more" id="more-mentalhealth">mental health</span> issues that may have popped up regardless of where I'd been, general issues about <span class="more" id="more-christianschools">Christian schools</span>, and specific issues about <span class="more" id="more-emmanuel">Emmanuel</span>.
+        </p>
+        <p id="reveal-adolescence" class="hidden">Adolescence</p>
+        <p id="reveal-fat" class="hidden">Fat</p>
+        <p id="reveal-nerdy" class="hidden">Nerdy</p>
+        <p id="reveal-queer" class="hidden">I don't think I ever spoke to you about sexuality in anything more than a theoretical context. </p>
+        <p id="reveal-goldcoast" class="hidden">Gold Coast</p>
+        <p id="reveal-mentalhealth" class="hidden">Mental health</p>
+        <p id="reveal-christianschools" class="hidden">Christian schools</p>
+        <p id="reveal-emmanuel" class="hidden">Emmanuel is the worst</p>
+      </div>
+    </div>
+    <h3>Fond regards,</h3>
+    <h3>Merrin</h3>
   </div>
 </body>
 </html>
