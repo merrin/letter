@@ -96,6 +96,10 @@ img {
   font-size: 1.2em;
 }
 
+blockquote {
+  font-size: 0.8em;
+}
+
 /**
  * For modern browsers
  * 1. The space content is one way to avoid an Opera bug when the
